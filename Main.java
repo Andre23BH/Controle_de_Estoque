@@ -69,7 +69,7 @@ public class Main {
         System.out.println("");
 
         produto1.exibirProdutos();
-        System.out.printf("Valor total em estoque: R$ %.2f%n" + produto1.valorEstoque());
+        System.out.printf("Valor total em estoque: R$ %.2f%n", produto1.valorEstoque());
 
         double precoComDesconto =  produto1.precoDesconto(percentual);
         System.out.printf("Preço com desconto: R$ %.2f%n", precoComDesconto);
